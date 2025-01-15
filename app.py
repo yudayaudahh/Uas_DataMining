@@ -77,7 +77,7 @@ def load_data(filepath):
     return data
 
 # Path dataset
-file_path = r"D:\DATA_MINING\Regression.csv"
+file_path = r"Regression.csv"
 try:
     data = load_data(file_path)
     st.markdown("## 🗂 Dataset Overview")
